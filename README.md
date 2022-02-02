@@ -10,7 +10,7 @@ Run `pip install qrcode`
 
 ### How to run the script
 - Provide your desired URL in the script
-- Execute `python3 generate_qrcode.py`
+- Execute `python3 QR_code_generator.py`
 
 ### Screenshot showing the sample use of the script
 <p align="center">
