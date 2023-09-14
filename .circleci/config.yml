@@ -30,7 +30,11 @@ jobs:
     steps:
       - checkout
       - python/install-packages:
-          command: pip install qrcode
+          pkg-manager: pip install qrcode
+         
+      - run:
+          name: Run
+          # This assumes pytest is installed via the install-package step above
           command: python3 QR_code_generator.py
 
 # Invoke jobs via workflows
