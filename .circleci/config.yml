@@ -30,7 +30,7 @@ jobs:
     steps:
       - checkout
       - python/install-packages:
-          pkg-manager: pip install qrcode
+          pkg-manager: pip
          
       - run:
           name: Run
